@@ -1,0 +1,17 @@
+# Core API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-multipart>=0.0.9
+
+# Model runtime (Nabra-7M-Distill = Kokoro / StyleTTS2)
+# torch is installed by setup.sh from the CPU or CUDA index, whichever fits the box.
+torch>=2.2
+transformers>=4.40
+numpy>=1.24
+loguru>=0.7
+huggingface-hub>=0.24
+
+# Arabic grapheme-to-phoneme front end (espeak-ng ships inside espeakng-loader,
+# so no system package is required).
+misaki[en]>=0.9.3

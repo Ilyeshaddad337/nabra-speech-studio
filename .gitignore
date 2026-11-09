@@ -1,0 +1,13 @@
+# Python
+backend/.venv/
+backend/.bootstrap-venv/
+__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Runtime
+.env
+*.wav

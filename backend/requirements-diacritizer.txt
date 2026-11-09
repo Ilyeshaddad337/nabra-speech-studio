@@ -1,0 +1,4 @@
+# Optional: MSA auto-diacritization. Without it, undiacritized input is handed
+# to espeak-ng raw and it guesses the short vowels (noticeably worse prosody).
+# After installing, fetch the model data:  camel_data -i disambig-mle-calima-msa-r13
+camel-tools>=1.5
